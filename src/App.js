@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Rooms from "./Components/pages/Rooms/Rooms";
 import RoomDetails from "./Components/pages/RoomsDetails/RoomDetails";
