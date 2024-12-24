@@ -14,16 +14,16 @@ const Footer = () => {
             chuẩn bị hợp đồng và cung cấp giải pháp quản lý hiệu quả nhất.
           </p>
           <div className="booking-social-links">
-            <a href="#">
+            <a href="facebook.com">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#">
+            <a href="instagram.com">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#">
+            <a href="twitter.com">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#">
+            <a href="pinterest.com">
               <i className="fab fa-pinterest-p"></i>
             </a>
           </div>
