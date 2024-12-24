@@ -25,7 +25,9 @@ const ThankYouPage = () => {
           <CheckCircleOutlined className="thank-you-icon" />
           <h1>Đặt phòng thành công!</h1>
           <p className="thank-you-message">
-            Cảm ơn bạn đã tin tưởng và sử dụng dịch vụ của chúng tôi.
+            Cảm ơn bạn đã tin tưởng và sử dụng dịch vụ của chúng tôi. Chúng tôi
+            đã gửi thông tin đặt phòng và phương thức thanh toán. Thanh toán
+            trong vòng 1h để hoàn tất đặt phòng.
           </p>
           <div className="thank-you-details">
             <p>
