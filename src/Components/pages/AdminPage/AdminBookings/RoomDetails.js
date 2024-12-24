@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, Descriptions, Image, Tag } from "antd";
+import { Card, Descriptions, Image } from "antd";
 import axios from "axios";
 
 const RoomDetails = ({ room }) => {
@@ -36,13 +36,6 @@ const RoomDetails = ({ room }) => {
     findDistrictName();
     setLoading(false); // Khi tìm thấy tên quận, set loading là false
   }, [districts, room.districtId]); // Đảm bảo re-run khi districts hoặc room.districtId thay đổi
-
-  const formatCurrency = (value) => {
-    return new Intl.NumberFormat("vi-VN", {
-      style: "currency",
-      currency: "VND",
-    }).format(value);
-  };
 
   return (
     <Card className="mb-4">
